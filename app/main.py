@@ -12,6 +12,7 @@ app = FastAPI(title="Gestion École")
 # Origines autorisées (ici ton Angular local)
 origins = [
     "http://localhost:4200",
+    "https://elhasnaoui.netlify.app"
 ]
 
 app.add_middleware(
